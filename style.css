@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/*「top.html」「uniform.html」「training.html「accwaaory」で使用するCSS*/
+/*サイト全体のフォントの優先度、フォントサイズの設定、背景色の設定*/
+body{
+    font-family:"Meiryo UI", sans-serif;
+    font-size: 15px;
+    background-color:lightgray;
+}
+/*リンクのアンダーラインの削除、リンクの色変更*/
+a {
+    text-decoration: none;
+    color: black;
+}
+/*見出しの中央揃え*/
+.headline {
+    text-align: center;
+}
+/*ヘッダーの大きさ*/
+.header {
+    width: 1200px;
+    margin: 0 auto;
+    background: silver;
+    margin-bottom: 30px;
+}
+/*見出し文字のフォント設定*/
+.header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*ページ内リンクのフォント設定*/
+.header li {
+    font-weight: bold;
+}
+/*説明文のフォント設定*/
+.header p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/*リンクのリストを横に並べる*/
+.header ul {
+    display: flex;
+    font-size: 20px;
+}
+/*リンクのリストの幅を調整*/
+.header ul li {
+    width: 200px;
+    text-align: center;
+}
+/*リンクの認識範囲をリストの幅に調整*/
+.header ul li a {
+    display: block;
+}
+/*トップ画像を中央に配置*/
+.top_img {
+    text-align: center;
+    margin-bottom: 30px;
+}
+/*インラインブロック要素の設定*/
+.top_img img {
+    display: inline-block;
+}
+/*全体を1220pxの幅に合うよう設定*/
+.contents {
+    width: 1200px;
+    margin:0 auto;
+}
+/*各商品が横に並ぶように設定*/
+.goods_element {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+/*各商品の配置を設定*/
+.new_arrival .goods {
+    width:380px;
+    text-align: center;
+}
+/*新商品の見出しを中央に配置*/
+.new_arrival h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    background: gray;
+    color: white;
+    padding: 10px 20px 10px;
+    margin-bottom: 50px;
+}
+/*画像との余白の設定*/
+.new_arrival .goods img {
+    margin-bottom: 10px;
+}
+/*商品名のフォントを太字、大きさ指定*/
+.new_arrival .goods .name {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+/*金額のフォント大きさ指定*/
+.new_arrival .goods .price {
+    font-size: 20px;
+    color: red;
+    margin-bottom: 20px;
+}
+/*リンクの色と配置の設定*/
+.new_arrival .goods a {
+    background: gray;
+    color: white;
+    padding: 10px 20px 10px;
+}
+/*フッダーを中央に配置*/
+.copy {
+    text-align: center;
+}
+
+/*店舗案内　追加CSS*/
+/*説明文フォント設定*/
+.new_arrival p {
+    font-size: 20px;
+}
+/* 店舗案内テーブル、問い合わせテーブル*/
+table {
+    clear: both;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+/*表の位置の設定*/
+th,td {
+    border: 1px solid #333333;
+    padding: 5px;
+}
+/*表内色の設定*/
+th {
+    width: 200px;
+    vertical-align: middle;
+    background-color: gray;
+    color: white;
+}
+/*マップを中央に配置*/
+#map {
+    width: 1200px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*問い合わせ　追加CSS*/
+/*アンケート内配置設定*/
+.contact p {
+    margin-bottom: 10px;
+}
+.contact input {
+    margin-bottom: 20px;
+}
